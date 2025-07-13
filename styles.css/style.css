@@ -13,7 +13,9 @@ body {
       color: #fff;
       opacity: 1;
     }
-    
+    .p-aboutus {
+      color: black;
+    }
     .dropdown-menu {
       background: #fff;
       color: #222;
