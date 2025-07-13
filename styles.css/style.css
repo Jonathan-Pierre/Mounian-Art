@@ -13,9 +13,7 @@ body {
       color: #fff;
       opacity: 1;
     }
-    .nav-link.disabled {
-      color: #ccc;
-    }
+    
     .dropdown-menu {
       background: #fff;
       color: #222;
