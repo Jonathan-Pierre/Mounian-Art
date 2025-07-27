@@ -1,0 +1,158 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #f6f6f6;
+  color: #1b1b1b;
+}
+
+.navbar {
+  background: blue;
+  list-style: none;
+  
+  .navbar-brand {
+    font-size: 2rem;
+    font-weight: 500;
+    margin-right: 2rem;
+    color: #fff;
+    transition: color 0.2s;
+    
+    &:hover {
+      color: rgb(253, 179, 191);
+    }
+  }
+
+  .navbar-nav {
+    .nav-link {
+      color: #fff;
+      transition: color 0.2s;
+
+      &.active {
+        font-weight: 700;
+        opacity: 1;
+      }
+
+      &:hover {
+        color: rgb(246, 145, 145);
+      }
+    }
+  }
+
+  .dropdown-toggle {
+    color: #fff;
+    }
+
+  .navbar-svg {
+    width: 30px;
+    height: 30px;
+    transition: background-color 0.2s;
+
+    &:hover {
+      background-color: green;
+    }
+  }
+}
+
+.dropdown-menu {
+  background: #fff;
+  color: rgb(159, 244, 159);
+  border: 1px solid #eee;
+
+  .dropdown-item {
+    color: #222;
+    transition: background 0.2s, color 0.2s;
+
+    &:hover {
+      background: #e6e8ff;
+      color: #4746ff;
+    }
+  }
+}
+
+.form-control {
+  background: #fff;
+  color: #222;
+  border: 1px solid #eee;
+}
+
+.btn-search {
+  background: #fff;
+  color: #222;
+  border: 1px solid #eee;
+  margin-left: 10px;
+  transition: background 0.2s, color 0.2s, border-color 0.2s;
+
+  &:hover {
+    background: #fa7f7f;
+    color: #fff;
+    border-color: #4746ff;
+  }
+}
+
+.container {
+  max-width: 800px;
+  margin: 60px auto;
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  border-radius: 12px;
+  padding: 32px;
+}
+
+
+h1, h2, h3, h4 {
+  color: #2b62d6;
+}
+
+.p-aboutus {
+  color: black;
+  font-size: 23px;
+}
+
+.contact-section {
+  form {
+    label {
+      display: block;
+      margin-bottom: 8px;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 7px;
+      border-radius: 4px;
+      border: 1px solid #ccc;
+      margin-bottom: 14px;
+      font-size: 1em;
+    }
+    button {
+      background: #2b62d6;
+      color: #fff;
+      border: none;
+      padding: 10px 22px;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background 0.2s;
+
+      &:hover {
+        background: #194b9c;
+      }
+    }
+  }
+}
+
+.gallery-section {
+  img {
+    width: 120px;
+    margin: 6px;
+    border-radius: 8px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.07);
+  }
+}
+
+.events-section {
+  ul {
+    padding-left: 20px;
+  }
+}
+
+.p-footer {
+  color: black;
+  text-align: center;
+}
